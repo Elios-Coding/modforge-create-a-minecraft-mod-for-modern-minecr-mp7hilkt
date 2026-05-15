@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "create-a-minecraft-mod-for-modern-minecr-mp7hilkt",
+  "version": "${version}",
+  "name": "Global TNT Power Command",
+  "description": "Adds an operator-only /tntpower <multiplier> command that globally scales vanilla TNT explosion strength via a server-side multiplier.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/create-a-minecraft-mod-for-modern-minecr-mp7hilkt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.createaminecraftmodformodernminecr.CreateAMinecraftModForModernMinecrMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "create-a-minecraft-mod-for-modern-minecr-mp7hilkt.mixins.json"
+  ]
+}
